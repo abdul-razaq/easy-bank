@@ -1,14 +1,15 @@
 .navigation {
+	&__items {
+    margin-top: -1rem;
+		display: inline-flex;
+	}
 
-  &__items {
-    
-  }
+	&__item {
+		margin-right: 3rem;
+	}
 
-  &__item {
-
-  }
-
-  &__link {
-
-  }
+	&__link {
+		color: var(--grayish-blue);
+    font-size: 1.5rem;
+	}
 }

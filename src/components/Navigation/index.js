@@ -1,7 +1,7 @@
 import { navigation } from "./Navigation.module.scss";
 
-import NavLinks from "../NavLinks";
 import Logo from "../Logo";
+import NavLinks from "../NavLinks";
 
 export default function Navigation(props) {
 	return (

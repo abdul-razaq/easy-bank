@@ -2,5 +2,8 @@
   background-color: var(--color-white);
   padding: 3rem 15rem;
   max-width: 100%;
-  background-color: orangered;
+  // background-color: orangered;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
