@@ -1,9 +1,9 @@
-import Header from "./components/Header";
+import Navigation from "./components/Navigation";
 
 export default function App() {
   return (
     <main className="main">
-      <Header />
+      <Navigation />
     </main>
   );
 }
