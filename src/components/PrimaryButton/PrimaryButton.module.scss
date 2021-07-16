@@ -1,0 +1,9 @@
+.button {
+  cursor: pointer;
+  font-weight: var(--font-weight-regular);
+  font-family: inherit;
+  padding: 1.3rem 3rem;
+  border-radius: 5rem;
+  color: var(--color-white);
+  background-image: linear-gradient(to right, var(--secondary-color), var(--tertiary-color));
+}
