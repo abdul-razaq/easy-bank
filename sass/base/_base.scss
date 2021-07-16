@@ -1,19 +1,34 @@
 html {
-  font-size: 62.5%;
+	font-size: 62.5%;
+}
+
+:root {
+	// COLORS
+	--primary-color: #2d314d; // Dark Blue
+	--secondary-color: #31d35c; // Lime Green
+	--tertiary-color: #2bb7da; // Bright Cyan
+
+	--grayish-blue: #9698a6;
+	--grayish-blue-light: #f3f4f6;
+	--light-gray: #fafafa;
+	--color-white: #ffffff;
+
+	// TYPOGRAPHY
+	--primary-font-family: "Public Sans", sans-serif;
+	--default-font-size: 1.8rem;
+
+	// FONT
+	--font-weight-light: 300;
+	--font-weight-regular: 400;
+	--font-weight-bold: 700;
 }
 
 body {
-  box-sizing: border-box;
-  font-family: $primary-font-family;
-  font-size: $default-font-size;
-  color: $light-gray;
-  background-color: $primary-color;
+	box-sizing: border-box;
+	font-family: $primary-font-family;
+	font-size: $default-font-size;
+	color: $light-gray;
 }
 
 .main {
-  background-color: orangered;
-}
-
-.hello {
-  font-size: 10rem;
 }
