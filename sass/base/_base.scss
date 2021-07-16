@@ -1,0 +1,19 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: $primary-font-family;
+  font-size: $default-font-size;
+  color: $light-gray;
+  background-color: $primary-color;
+}
+
+.main {
+  background-color: orangered;
+}
+
+.hello {
+  font-size: 10rem;
+}
