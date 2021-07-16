@@ -1,19 +1,12 @@
-import {
-	navigation,
-	logoBox,
-	navigation__logo,
-} from "./Navigation.module.scss";
-
-import Logo from "../../images/logo.svg";
+import { navigation } from "./Navigation.module.scss";
 
 import NavLinks from "../NavLinks";
+import Logo from "../Logo";
 
-export default function Header(props) {
+export default function Navigation(props) {
 	return (
 		<nav className={navigation}>
-			<div className={logoBox}>
-				<img src={Logo} alt="logo" className={navigation__logo} />
-			</div>
+			<Logo />
 			<NavLinks />
 		</nav>
 	);
